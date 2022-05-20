@@ -1,5 +1,14 @@
-package com.example.quotesapp.model
+package com.example.quotesapp.data.model
 
+class QuoteProvider {
+    companion
+    object {
+        var quotes:List<QuoteModel> = emptyList()
+    }
+}
+
+/*
+// Commented because need QuoteProvider from web service
 class QuoteProvider {
     companion object {
 
@@ -47,3 +56,4 @@ class QuoteProvider {
         )
     }
 }
+*/
